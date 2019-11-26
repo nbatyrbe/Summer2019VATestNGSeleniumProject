@@ -13,12 +13,14 @@ public class SingletonTest {
 //        Singleton s = new Singleton();
 
         String s1 = Singleton.getInstance();
-
         String s2 = Singleton.getInstance();
 
         System.out.println("s1 = " + s1);
         System.out.println("s2 = " + s2);
     }
+
+
+
 
 
     @Test
@@ -32,6 +34,14 @@ public class SingletonTest {
         // we use this method to close the driver
         Driver.closeDriver();
     }
+
+
+
+
+
+
+
+
 
     @Test
     public void test3(){
