@@ -17,4 +17,5 @@ public class PropertiesTest {
         // when we provide a key that does not exist, it returns null
         System.out.println(ConfigurationReader.get("mybrowser"));
     }
+
 }
