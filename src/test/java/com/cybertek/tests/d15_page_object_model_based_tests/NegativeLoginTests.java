@@ -1,6 +1,6 @@
 package com.cybertek.tests.d15_page_object_model_based_tests;
 
-import com.cybertek.pages.LoginPage;
+import  com.cybertek.pages.LoginPage;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import org.testng.Assert;
