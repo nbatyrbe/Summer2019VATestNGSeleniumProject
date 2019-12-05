@@ -7,6 +7,13 @@ public class FileExamples {
     @Test
     public void test(){
         System.out.println(System.getProperty("user.dir"));
+
+
+        String path = System.getProperty("user.dir") + "/test-output/report.html";
+
+        System.out.println(path);
+
+
 //        System.out.println(System.getProperty("os.name"));
 //        System.out.println(System.getProperty("user.home"));
 //

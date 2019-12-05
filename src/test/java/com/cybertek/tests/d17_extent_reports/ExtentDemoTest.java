@@ -5,6 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class ExtentDemoTest {
 
@@ -41,9 +42,25 @@ public class ExtentDemoTest {
 
     }
 
+    @Test
+    public void test1(){
+        // give name to the current test
+        extentLogger = report.createTest("TC001 Login as driver test");
+        // info() --> write test steps
+        extentLogger.info("Open chrome");
+        extentLogger.info("go to url");
+        extentLogger.info("enter driver login info");
+        extentLogger.info("click submit");
+        extentLogger.info("click verify logged in");
+        // pass() --> marks the test case as passed
+        extentLogger.pass("TC001 passed");
+
+    }
+
     @AfterMethod
     public void close(){
-        // this is when the report is actually created
+        // this is when the report is actually created.
+        // this line must run after everything.
         report.flush();
     }
 
