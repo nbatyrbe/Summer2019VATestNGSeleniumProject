@@ -1,5 +1,7 @@
 package com.cybertek.utilities;
 
+import org.openqa.selenium.By;
+
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -9,7 +11,7 @@ import java.util.Properties;
 public class ConfigurationReader {
 
     private static Properties properties;
-
+//  /Users/cybertekschool/IdeaProjects/Summer2019VATestNGSeleniumProject/src/test/java/com/cybertek/tests/d16_pom_2/PageSubtitlesTest.java
     static {
 
         try {
@@ -32,4 +34,6 @@ public class ConfigurationReader {
     public static String get(String keyName) {
         return properties.getProperty(keyName);
     }
+
+
 }

@@ -13,7 +13,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
-    private Driver() {}
+        private Driver() {
+
+        }
 
     private static WebDriver driver;
 
@@ -58,6 +60,9 @@ public class Driver {
                     driver = new SafariDriver();
                     break;
             }
+
+
+
         }
 
         return driver;
