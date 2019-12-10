@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 public class NegativeLoginTestWithReports  extends TestBase {
 
+
+
     @Test
     public void wrongPasswordTest(){
         // if we dont add extentLogger = report.createTest ,this test will not be in the html report

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack automation" verbose="10">
+
+    <test name="QA1 Vytrack smoke tests">
+        <parameter name="env" value="qa1"></parameter>
+
+        <classes>
+            <class name="com.cybertek.tests.d16_pom_2.PageSubtitlesTest"></class>
+        </classes>
+    </test>
+
+    <test name="QA2 Vytrack smoke tests">
+        <parameter name="env" value="qa2"></parameter>
+
+        <classes>
+            <class name="com.cybertek.tests.d16_pom_2.PageSubtitlesTest"></class>
+        </classes>
+</test>
+
+
+</suite>

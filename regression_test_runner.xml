@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack automation" verbose="10">
+
+    <test name="Vytrack regression tests">
+        <packages>
+            <package name="com.cybertek.tests.d15_page_object_model_based_tests"></package>
+            <package name="com.cybertek.tests.d16_pom_2"></package>
+            <package name="com.cybertek.tests.d17_extent_reports"></package>
+        </packages>
+    </test>
+
+</suite>
