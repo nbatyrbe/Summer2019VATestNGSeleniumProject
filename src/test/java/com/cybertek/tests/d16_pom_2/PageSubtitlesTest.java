@@ -37,7 +37,5 @@ public class PageSubtitlesTest extends TestBase {
 
 
 
-        //dve storchki
-
     }
 }
